@@ -1,0 +1,26 @@
+#natural number sum finder
+
+n=int(input("Enter the number: "))
+sum=0
+i=1
+while(i<=n):
+    sum=sum+i
+    i=i+1
+print ("The sum is: ",sum)
+
+print ("\nDo you want to restart:")
+restart=str(input("Enter 1 for yes else press enter to exit: "))
+while (restart=="1"):
+    n=int(input("\nEnter the number: "))
+    sum=0
+    i=1
+    while(i<=n):
+        sum=sum+i
+        i=i+1
+    print ("The sum is: ",sum)
+
+    print ("\nDo you want to restart:")
+    restart=str(input("Enter 1 for yes else press enter to exit: "))
+    
+
+    
