@@ -1,2 +1,2 @@
-# hello-world
-My first respository
+# python hello world
+print('Hello World')
